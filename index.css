@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head1{
+    padding-top:10px;
+    height: 600px;
+    background-image: url('mainphoto.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+}
+#nav{
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0,0.4);
+ 
+}
+
+#nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#nav ul li{
+    text-decoration: none;
+    margin: 10px 30px 10px 30px;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 18px;
+
+}
+#nav ul li a:hover{
+
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+#navbody h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Tangerine', cursive;
+}
+
+#navbody p{
+    text-align: center;
+    font-size: 20px;
+}
+
+/* css for body  */
+
+#body h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Tangerine', cursive;
+
+}
+
+.bodyh1{
+    text-align: center;
+    text-decoration: none;
+    font-size: 34px;
+    margin: 40px;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.mainbox{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.box1{
+    height: 580px;
+    width: 90%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 20px auto 20px auto;
+    position: relative;
+
+}
+
+.box1 img{
+    padding: 1%;
+    border-radius: 20px;
+    height: 369px;
+    width: 98%;
+}
+
+.box1 table{
+    margin: 10px;
+    border-spacing: 10px;
+}
+
+.box1 div{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+.box1 div p a{
+    background-color: white;
+    border: 2px solid #488c0b;
+    border-radius: 5px;
+
+    text-decoration: none;
+    color: #488c0b;
+    font-size: 20px;
+    padding: 4px 6px;
+}
+
+.box1 div p a:hover{
+
+    transition: 0.4s;
+    box-shadow: 4px 4px 12px #488c0b, -4px -4px 12px #488c0b;
+    background-color: #488c0b;
+    color: white;
+}
+
+.founderh1{
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 20px;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.founders{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.founder img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+}
+
+.founder h3{
+    margin: 10px 0px;
+    text-align: center;
+}
+.founder p{
+    text-align: center;
+}
+
+.founder p a{
+    text-decoration: none;
+
+}
